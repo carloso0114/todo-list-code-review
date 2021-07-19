@@ -1,0 +1,43 @@
+ul {
+  list-style-type: none;
+}
+
+.hover {
+  background-color: gray;
+  opacity: 0.6;
+}
+
+.hover2 {
+  background-color: blue;
+  opacity: 0.6;
+}
+
+.completed {
+  text-decoration: black line-through;
+}
+
+.clearBtn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.no-border {
+  border: 0;
+  box-shadow: none;
+}
+
+.no-border:focus {
+  outline: none;
+}
+
+.bi-trash {
+  cursor: pointer;
+}
+
+.draggableicon {
+  cursor: move;
+}
+
+.bi-arrow-return-left:hover {
+  cursor: pointer;
+}
